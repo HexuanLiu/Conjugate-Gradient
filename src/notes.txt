@@ -1,0 +1,77 @@
+
+
+for i i_begin i_end by itile
+  for j j_begin j_end by jtile
+    for k k_begin k_end by ktile
+    for k k_end k_last by 1
+
+  for j j_end j_last by 1
+    for k k_begin k_end by ktile
+    for k k_end k_last by 1
+
+for i i_end i_last by 1
+  for j j_begin j_end by jtile
+    for k k_begin k_end by ktile
+    for k k_end k_last by 1
+
+  for j j_end j_last by 1
+    for k k_begin k_end by ktile
+    for k k_end k_last by 1
+
+
+
+for i i_begin i_end by itile
+  for j j_begin j_end by jtile
+    for k k_begin k_end by ktile
+    for k k_end k_last by 1
+
+  for j j_end j_last by 1
+    for k k_begin k_end by ktile
+    for k k_end k_last by 1
+
+for i i_end i_last by 1
+  for j j_begin j_last by 1
+    for k k_begin k_last by 1
+
+
+
+outer main
+  middle main
+    inner_main
+    inner_fringe
+
+  middle fringe 
+    inner_main
+    inner_fringe
+
+outer fringe
+  middle main
+    inner_main
+    inner_fringe
+
+  middle fringe 
+    inner_main
+    inner_fringe
+
+
+outer body
+  outer main begin
+    middle body
+  outer main end
+  outer fringe begin
+    middle body
+  outer fringe end
+
+middle body
+  middle main begin
+    inner body
+  middle main end
+  middle fringe begin
+    inner body
+  middle fringe end
+
+inner body
+  inner main begin
+  inner main end
+  inner fringe begin
+  inner fringe end
